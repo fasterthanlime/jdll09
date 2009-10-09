@@ -1,0 +1,93 @@
+digraph G {
+
+    /**
+    * Chaque grande partie est placée dans un sous-graph pour une meilleure gestion
+    * de placement, de couleur etc...
+    * Ne pas hésiter à utiliser des labels plutôt que des noms directs
+    */
+
+
+    graph [rankdir="LR" , fontname="sans", bgcolor=transparent]
+    /* Par défaut on spécifie que les noeuds n'ont pas de forme */
+    node [shape=record, style="rounded,filled", fillcolor="#FFFFFF"]
+
+    /* Noeud titre en ellipse */
+    title [shape=ellipse, label="Les nouveaux\ncompilateurs", fillcolor="#4385b3"]
+   
+
+     
+    subgraph Introduction_section {
+        graph [rankdir="RL"]
+        node [fillcolor="#eadfed"]
+        //les noeuds et les notes...
+        Compilation [label="La compilation\nune vieille histoire"]
+        Compilation_note [
+            shape=note, 
+            label="La compilation est une méthode éprouvée\lmais demande un fort maintien et une connaissance\ldes langages utilisé assez poussée.\l"
+        ]
+        ByteCompilation_note [
+            shape=note, 
+            label="La bytecompilation répond déjà à pas mal de contraintes\lmais elle force l'utilisation d'une VM\l"
+        ]
+
+
+        /* Déroulement */
+        title -> Introduction
+        Introduction -> "Présentation des intervenants\lPatrice FERLET (Smile OpenSource Solutions)\lAmos Wenger (Indépendant)\l"
+        Introduction -> Compilation
+        Compilation -> "C/C++, Pascal, Cobol..." -> Compilation_note        
+        Compilation -> "Byte compilation:\nJava, Python..." -> ByteCompilation_note
+        
+    }
+
+    
+    /** 
+    * Sous partie pour PCC
+    * Intervenant: Patrice FERLET
+    */
+    subgraph PCC_section {
+        graph [rankdir="RL"]
+        node [fillcolor="#f9f2da"]
+       
+        //les noeuds, les notes...  
+        PCC [label="RoadSend PCC\nCompilez du PHP"]
+        ZEngine_note [
+            shape=note, 
+            label="Utilisation d'extensions, communauté\let framewoks\n"]
+        PCC_note [
+            shape=note, 
+            label="Autre implémentation, librairies partagées,\lcompilation\lMise en prod différente\l"
+        ]
+        PCC_imp [
+            label="RoadSend PCC"
+        ]
+        
+
+
+        /* Déroulement */
+        title -> PCC
+        PCC->"Implémentation"
+        "Implémentation" -> "Guitare ou Guitare ?" /* Là je vais montrer une guitare éléctrique et une classique, et expliquer que ce sont deux implémentation de guitares*/
+
+        /* Une explication sur les différentes implémentation de PHP */
+        "Implémentation" -> "Zend Engine"
+        "Zend Engine" -> ZEngine_note
+
+        "Implémentation" -> PCC_imp
+        PCC_imp -> PCC_note        
+
+        /* Déroulement de la présentation de PCC */
+        PCC -> "Présentation du projet"
+        PCC -> "Exemple de code, et benchmark"
+        PCC -> "Le futur\nRaven"
+        
+    }
+
+    subgraph OOC_section {
+        graph [rankdir="RL"]
+        /* Noeud pour OOC (Amos Wenger) */
+        node [fillcolor="#d8e1d1"]
+        OOC [label="OOC language"]
+        title->OOC
+    }
+}
