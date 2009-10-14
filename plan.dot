@@ -23,7 +23,7 @@ digraph G {
         Compilation [label="La compilation\nune vieille histoire"]
         Compilation_note [
             shape=note, 
-            label="La compilation est une méthode éprouvée\lmais demande un fort maintien et une connaissance\ldes langages utilisé assez poussée.\l"
+            label="La compilation est une méthode éprouvée\lmais demande un fort maintien et une connaissance\ldes langages utilisés assez poussée.\l"
         ]
         ByteCompilation_note [
             shape=note, 
