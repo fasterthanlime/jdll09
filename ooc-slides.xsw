@@ -1,0 +1,147 @@
+template: tutorial
+ #- bg: "back.jpg"
+
+template: example tutorial
+ - title: x:4 y:3
+ - code: font:mono x:10 y:28 size:24 color:seagreen1
+
+ - list: x:25 y:40
+ - longlist: x:25 y:40 size:30 x:15
+ - quote: x:50 y:18 size:80 align:center
+ - bigtit: x:50 y:5 size:180 align:center
+ - desc: x:50 y:45 align:center
+
+#
+# titre
+#
+slide: tutorial
+ - 'ooc' x:50 y:14 size:200 align:center
+ 
+ - 'un langage de programmation' x:50 y:46 size:30 align:center
+ + 'minimal, objet, flexible, portable'
+ 
+ - 'http://ooc-lang.org/' x:95 align:right y:70 size:20
+
+#
+# programmer
+#
+slide: example
+
+ - quote: '« programmer »'
+ - desc: "l'art de se faire"
+ + "comprendre d'une machine"
+
+#
+# langage
+#
+slide: example
+
+ - quote: '« langage »'
+ - desc: "moyen de communication"
+
+#
+# défis
+#
+slide: example
+
+ - quote: '« défis »'
+ - list: "complexe"
+ + "performant"
+ + "fiable"
+ + "coût"
+  
+#
+# complexe
+#
+slide: example
+
+ - quote: '« complexe »'
+ - list: "champ visuel" # éditeurs de texte, 80 lignes
+ + "neurones" # maintenir une vision du programme dans son cerveau
+ + "calcul & mémoire" # limitations matérielles
+
+#
+# fiable
+#
+slide: example
+
+ - quote: '« fiable »'
+ - list: "tests unitaires" x:32
+ + "déverminage"
+
+
+#
+# coût
+#
+slide: example
+
+ - quote: '« coût »'
+ - list: "temps" x:38 # Moins à taper = plus vite fait, simple = moins d'erreurs
+ + "argent"  # Time is money, time to market
+ + "muscles" # Dactylographie
+ 
+#
+# performant
+#
+slide: example
+
+ - quote: '« performant »'
+ - list: "mille feuilles" # Machines virtuelles
+ + "échelle variable" # Twitter, Scala
+ + "optimiser" # Profileurs
+
+#
+# ooc
+#
+slide: example
+
+ - bigtit: 'ooc'
+ - longlist: "traduit en pur C99"
+ + "Io | Scala | Python | Ruby"
+ + "Mars 2009 | C objet"
+ + "BSD | @GitHub"
+
+#
+#
+#
+slide: example
+
+ - bigtit: 'ooc'
+ - longlist: "classes, polymorphisme"
+ + "surcharge d'opérateurs"
+ + "ramasse-miettes (garbage collector)"
+ + "génériques"
+
+#
+#
+#
+slide: example
+
+ - bigtit: 'ooc'
+ - longlist: "modules"
+ + "collections"
+ + "types primitifs"
+ + "ubiquité"
+
+
+#
+#
+#
+slide: example
+
+ - bigtit: 'ooc'
+ - longlist: "GTK | SDL | OpenGL | SFML"
+ + "C | C++ | Python | etc."
+ + "web | 3D | bureau | utilitaires"
+
+# captures d'écran
+
+
+# suite:
+#  - ce qui manque
+#  - ce qui est prévu
+#  - où et comment contribuer
+#  - links, etc.
+
+
+
