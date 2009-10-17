@@ -10,17 +10,18 @@ template: example tutorial
  - quote: x:50 y:18 size:80 align:center
  - bigtit: x:50 y:5 size:180 align:center
  - desc: x:50 y:45 align:center
+ 
+ - 'www.ooc-lang.org' x:96 align:right y:70 size:18
+ - 'Amos Wenger' x:4 align:left y:70 size:18
 
 #
 # titre
 #
-slide: tutorial
- - 'ooc' x:50 y:14 size:200 align:center
+slide: example
+ - 'ooc' x:50 y:12 size:200 align:center
  
- - 'un langage de programmation' x:50 y:46 size:30 align:center
+ - 'un langage de programmation' x:50 y:41 size:30 align:center
  + 'minimal, objet, flexible, portable'
- 
- - 'http://ooc-lang.org/' x:95 align:right y:70 size:20
 
 #
 # programmer
@@ -29,7 +30,7 @@ slide: example
 
  - quote: '« programmer »'
  - desc: "l'art de se faire"
- + "comprendre d'une machine"
+ + "comprendre d'une machine" # Machines = esclaves modernes, politiquement correct
 
 #
 # langage
@@ -37,7 +38,7 @@ slide: example
 slide: example
 
  - quote: '« langage »'
- - desc: "moyen de communication"
+ - desc: "moyen de communication" # Pire qu'un homme essayant de se faire comprendre d'une femme, l'inverse pire encore
 
 #
 # défis
@@ -45,10 +46,10 @@ slide: example
 slide: example
 
  - quote: '« défis »'
- - list: "complexe"
- + "performant"
- + "fiable"
- + "coût"
+ - list: "complexe" # Avant on faisait des cabanes, maintenant on construit des cathédrales
+ + "performant" # Avant on allait à pied, maintenant on construit des avions
+ + "fiable" # Quelle serait l'influence sur l'éducation si Google et Wikipédia étaient hors-ligne pendant une semaine?
+ + "coût" # Quand est-ce qu'on aurait du temps pour faire des LAN? hein?
   
 #
 # complexe
@@ -66,8 +67,8 @@ slide: example
 slide: example
 
  - quote: '« fiable »'
- - list: "tests unitaires" x:32
- + "déverminage"
+ - list: "tests unitaires" x:32 # Métaphore Videurs en boite de nuit
+ + "déverminage" # Psychologue, entrer dans la vie privée du programme
 
 
 #
@@ -87,8 +88,19 @@ slide: example
 
  - quote: '« performant »'
  - list: "mille feuilles" # Machines virtuelles
- + "échelle variable" # Twitter, Scala
- + "optimiser" # Profileurs
+ + "échelle variable" # Twitter & Scala, 503
+ + "optimiser" # Profileurs = observer son employé pendant une journée typique
+
+#
+# solutions
+#
+slide: example
+
+ - quote: '« solutions »'
+ - list: "minimalisme"
+ + "abstraction" # Exemple: Boulanger, Entreprise de sécurité
+ + "logiciel libre" # Partage, réutilisation
+ 
 
 #
 # ooc
@@ -97,9 +109,9 @@ slide: example
 
  - bigtit: 'ooc'
  - longlist: "traduit en pur C99"
- + "Io | Scala | Python | Ruby"
- + "Mars 2009 | C objet"
- + "BSD | @GitHub"
+ + 'Io | Scala | Python | Ruby'  # Influence syntaxique (";", ".", ":=")
+ + "Mars 2009 | C objet" # Origine = remplit un besoin, projet Universitaire, effort solo
+ + "BSD | @GitHub" # BSD = utilisable en entreprise, GitHub = facile à contribuer
 
 #
 #
@@ -107,10 +119,10 @@ slide: example
 slide: example
 
  - bigtit: 'ooc'
- - longlist: "classes, polymorphisme"
- + "surcharge d'opérateurs"
- + "ramasse-miettes (garbage collector)"
- + "génériques"
+ - longlist: "classes, polymorphisme" # Le monde est orienté objet
+ + "surcharge d'opérateurs" # Vecteurs+, collections[]
+ + "ramasse-miettes (garbage collector)" # L'optimisation prématurée est la source du mal
+ + "génériques" # DRY: Don't Repeat Yourself
 
 #
 #
@@ -118,10 +130,10 @@ slide: example
 slide: example
 
  - bigtit: 'ooc'
- - longlist: "modules"
- + "collections"
- + "types primitifs"
- + "ubiquité"
+ - longlist: "modules" # Gestion des dépendances, import > include
+ + "collections" # Listes, Tables de hachage
+ + "types primitifs" # Covers, arithmétique à précision arbitraire
+ + "ubiquité" # C99 = portable, compilateurs partout!
 
 
 #
@@ -131,17 +143,42 @@ slide: example
 
  - bigtit: 'ooc'
  - longlist: "GTK | SDL | OpenGL | SFML"
- + "C | C++ | Python | etc."
- + "web | 3D | bureau | utilitaires"
+ + "C | C++ | Python | etc." # teeworlds-ai, pyooc
+ + "web | 3D | bureau | utilitaires" # Minix 16-bit, 286
 
 # captures d'écran
 
+#
+#
+#
+slide: example
 
-# suite:
-#  - ce qui manque
-#  - ce qui est prévu
-#  - où et comment contribuer
-#  - links, etc.
+  - bigtit: 'ooc'
+  - longlist: "ce qui manque" # documentation, bindings, sdk
+  + "ce qui est prévu" # closures (fonctions anonymes), interfaces, traits, litérales de tables
+  + "@ooc_lang | #ooc-lang"
+
+
+#
+#
+#
+slide: example
+
+  - desc: "questions ?" y: 33
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
