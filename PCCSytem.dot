@@ -1,0 +1,15 @@
+digraph G {
+	graph [bgcolor=transparent]
+	node [color=white, fontcolor=black, style=filled]
+	edge [color=white]
+	
+	subgraph Compilation {
+		node [color=grey]
+		Code->PCC->Binaire
+	}
+
+	Binaire -> "Module MySQL"
+	Binaire -> "Module X"
+	Binaire -> "Module Y"
+
+}	 

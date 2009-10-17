@@ -1,0 +1,95 @@
+template: tutorial
+template: example tutorial
+ - title: size:200 x:50 y:14 align:center
+ - code: font:mono x:10 y:28 size:24 color:seagreen1
+
+ - list: x:25 y:40
+ - longlist: x:25 y:40 size:30 x:15
+ - quote: x:50 y:18 size:80 align:center
+ - bigtit: x:50 y:5 size:180 align:center
+ - desc: x:50 y:45 align:center
+
+template: phpcomp example
+- quote: "Pourquoi" size: 50
++ "compiler "
++ "du PHP"
+
+slide: example
+- title: 'PCC' 
+- desc: "« L'autre façon de faire du PHP »"
++ "http://www.roadsend.com"
++ "Patrice Ferlet <metal3d@copix.org>"
++ "http://www.metal3d.org"
+
+slide: example
+- quote: "« Implémentation ? »"  y: 8
+
+slide: example
+- quote: "« Implémentation ? »"  y: 8
+- image: './images/gc.jpg' scale: 0.5 x:38 y:25
+
+slide: example
+- quote: "« Implémentation ? »"  y: 8
+- image: './images/ge.jpg' scale: 0.3 x:45 y:25
+
+slide: example
+- quote: "« Implémentation ? »"  y: 8
+- image: './images/gc.jpg' scale: 0.5 x:15 y:25
+- image: './images/ge.jpg' scale: 0.3 x:65 y:25
+
+slide: example
+- quote: "« Implémentation ? »"
+- desc: "Un moteur d'interprétation:"
++"Zend Engine"
+
+slide: example
+- quote: "« Zend Engine »"
+- image: "./images/ZendSystem.png" scale: 0.55 x:0 y:30
+
+slide: example
+- quote: "« Implémentation ? »"
+- desc: "Un compilateur:"
++"Roadsend PCC"
+
+slide: example
+- quote: "« PCC »"
+- image: "./images/PCCSystem.png" scale: 0.55 x:30 y:30
+
+
+
+slide: example
+-quote: "Pourquoi"
++"compiler "
++ "du PHP"
+
+
+slide: example
+- quote: "Pourquoi compiler" size:60
++ "du PHP ?"
+- desc: "Temps d'exécution"
+
+slide: example
+- quote: "Pourquoi compiler" size:60
++ "du PHP ?"
+- desc: "» Temps d'exécution"
++ "» Algo lourds possibles"
++ "» Chage serveur"
+
+slide: example
+- quote: "Les limites"
+- desc: "» Extensions"
++ "» Deep compatibility"
++ "» Inclusion dynamique"
+
+slide: example
+- quote: "L'avenir !"
+- desc: "Raven, la refonte"
+
+slide: example
+- quote: "L'avenir !"
+- desc: "Raven, la refonte"
++ "Des frameworks... Pholow ?"
++ "http://www.pholow.net"
+
+
+

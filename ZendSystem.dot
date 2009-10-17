@@ -1,0 +1,10 @@
+digraph G {
+	graph [bgcolor=transparent]
+	node [color=white, fontcolor=black, style=filled]
+	edge [color=white]
+	Code -> "Zend Engine" -> "ByteCompile" -> "Zend Engine" -> "Interprétation\nBytecode=>code machine"
+	"Zend Engine" -> "Module MySQL"
+	"Zend Engine" -> "Module APC"
+	"Zend Engine" -> "Module X"
+	"Zend Engine" -> "Module Y"
+} 
