@@ -18,6 +18,8 @@ slide: example
 - title: 'PCC' 
 - desc: "« L'autre façon de faire du PHP »"
 + "http://www.roadsend.com"
++ "Patrice Ferlet <metal3d@copix.org>"
++ "http://www.metal3d.org"
 
 slide: example
 - quote: "« Implémentation ? »"  y: 8
@@ -69,12 +71,25 @@ slide: example
 slide: example
 - quote: "Pourquoi compiler" size:60
 + "du PHP ?"
-- desc: "Temps d'exécution"
-+ "» algo lourds possibles"
+- desc: "» Temps d'exécution"
++ "» Algo lourds possibles"
++ "» Chage serveur"
 
 slide: example
-- quote: "« En terrain connu »"
-- desc: "Langage datant de 1995, un langage"
-+"connu et fortement implémenté"
+- quote: "Les limites"
+- desc: "» Extensions"
++ "» Deep compatibility"
++ "» Inclusion dynamique"
+
+slide: example
+- quote: "L'avenir !"
+- desc: "Raven, la refonte"
+
+slide: example
+- quote: "L'avenir !"
+- desc: "Raven, la refonte"
++ "Des frameworks... Pholow ?"
++ "http://www.pholow.net"
+
 
 
