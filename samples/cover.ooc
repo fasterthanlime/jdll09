@@ -1,7 +1,7 @@
 Int: cover from int {
-	negate: func -> This {
-		-this
-	}
+    negate: func -> This {
+        -this
+    }
 }
 
 a := 42

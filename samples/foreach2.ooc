@@ -1,4 +1,4 @@
 for(element in liste) {
-	// affiche l'élément
-	element println()
+    // affiche l'élément
+    element println()
 }

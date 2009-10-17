@@ -1,7 +1,7 @@
 Animal: class {
-	nom: String
-	
-	init: func (=nom)
+    nom: String
+    
+    init: func (=nom)
 }
 
 anim := Animal new("Marsupilami")

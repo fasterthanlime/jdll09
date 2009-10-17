@@ -146,7 +146,46 @@ slide: example
  + "C | C++ | Python | etc." # teeworlds-ai, pyooc
  + "web | 3D | bureau | utilitaires" # Minix 16-bit, 286
 
-# captures d'écran
+#
+#
+#
+slide: example
+
+  - bg: 'screenies/oocheeps.png'
+
+#
+#
+#
+slide: example
+
+  - bg: 'screenies/teeworlds.png'
+  
+#
+#
+slide: example
+  - image: 'samples/helloworld.png' x:10 y:10
+slide: example
+  - image: 'samples/fonction.png' x:10 y:10
+slide: example
+  - image: 'samples/arraylist.png' x:10 y:10
+slide: example
+  - image: 'samples/fichier.png' x:10 y:10
+slide: example
+  - image: 'samples/foreach.png' x:10 y:10
+slide: example
+  - image: 'samples/foreach2.png' x:10 y:10
+slide: example
+  - image: 'samples/class1.png' x:10 y:10
+slide: example
+  - image: 'samples/class2.png' x:10 y:10
+slide: example
+  - image: 'samples/cover.png' x:10 y:10
+slide: example
+  - image: 'samples/match1.png' x:10 y:10
+slide: example
+  - image: 'samples/match2.png' x:10 y:10
+slide: example
+  - image: 'samples/gtk.png' x:10 y:10
 
 #
 #
